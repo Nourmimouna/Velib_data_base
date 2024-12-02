@@ -1,3 +1,7 @@
+
+--cette fonction generate planning verifie quels velos sont en maintenance et les ajoute dans la table visite en precisant lordre de cette visite
+-- elle utilise un algorithme simple pour calculer la distance des stations et d'entrepot  et les mets en ordre 
+-- la fonction retour planning ajoute RETOUR dans la table historique_maintennace mets ajour le statut du velo ainsi que leur station
 CREATE OR REPLACE FUNCTION generate_planning(camion_id INT)
 RETURNS VOID AS $$
 DECLARE

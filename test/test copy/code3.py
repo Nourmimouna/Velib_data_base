@@ -1,6 +1,6 @@
 from faker import Faker
 import random
-
+#Ce fichier sert a remplir les tables utilisateurs clients, technicien et responsable est ecris ces requets dans inserts_user.sql
 # Initialisation de la bibliothèque Faker
 fake = Faker('fr_FR')
 

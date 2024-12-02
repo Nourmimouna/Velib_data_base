@@ -1,3 +1,8 @@
+
+-- cest triggers assurent que une fois qu'une nouvelle ligne sajoute dans signalement trajet et feedback verifie cele est mets à jour le statut du velo, 
+-- pour signalement on verifie que le commentaire n'a pas ces mots cle = bad|trous|ne marche pas|shit 
+--pour feedback on met a jour la note du velo et on voit si elle est <3 
+--pour trajet on verifie aussi la note du velo on mets a jour le nombre de trajet et on verifie qu'il nest pas < 40  et puis on met a jour la station su velo
 CREATE OR REPLACE FUNCTION update_bike_status_on_signalement()
 RETURNS TRIGGER AS $$
 BEGIN

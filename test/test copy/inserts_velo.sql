@@ -1,0 +1,10 @@
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (1, '11', 39, 8.8, 'DISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (2, NULL, 7, 4.8, 'TRAJET', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (3, '13', 57, 9.6, 'INDISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (4, '14', 34, 1.0, 'INDISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (5, '12', 11, 9.7, 'INDISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (6, NULL, 6, 5.8, 'TRAJET', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (7, '9', 25, 7.4, 'DISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (8, '2', 54, 8.8, 'INDISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (9, '4', 50, 4.8, 'INDISPONIBLE', NULL);
+INSERT INTO velo (velo_id, station_id, nb_trajets, note_moyenne, statut, entrepot_id) VALUES (10, '6', 9, 3.1, 'INDISPONIBLE', NULL);

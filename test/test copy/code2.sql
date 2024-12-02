@@ -1,3 +1,6 @@
+
+--ce fichier sert a ajouter un trigger sur la table velo qui verifie la note du velo est ajoute une maintenance dans la table maintenance si la note du velo est inferieur à 3 
+
 CREATE OR REPLACE FUNCTION trigger_ajouter_maintenance()
 RETURNS TRIGGER AS $$
 DECLARE
@@ -8,9 +11,9 @@ BEGIN
     SELECT note_moyenne INTO note_velo FROM velo WHERE velo_id = NEW.velo_id;
 
     -- Déterminer la gravité de la maintenance
-    IF note_velo >= 4 THEN
+    IF note_velo >= 5 THEN
         gravite_maintenance := 'FAIBLE'::gravite_maintenance;
-    ELSIF note_velo >= 2 THEN
+    ELSIF note_velo >= 3 THEN
         gravite_maintenance := 'MOYENNE'::gravite_maintenance;
     ELSE
         gravite_maintenance := 'CRITIQUE'::gravite_maintenance;

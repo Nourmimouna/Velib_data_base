@@ -1,10 +1,14 @@
--- Types ENUM pour certains attributs
 
+-- Ce fichier me sert à creer mes tables et donc ajuster leurs clés à la fin du fichier 
+ 
 CREATE TYPE statut_camion AS ENUM ('DISPONIBLE', 'EN DÉPLACEMENT', 'EN RÉPARATION');
 CREATE TYPE gravite_maintenance AS ENUM ('FAIBLE', 'MOYENNE', 'CRITIQUE');
 CREATE TYPE abonnement_client AS ENUM ('MENSUEL', 'ANNUEL');
 CREATE TYPE type_utilisateur AS ENUM ('CLIENT', 'TECHNICIEN', 'RESPONSABLE');
 CREATE TYPE statut_velo AS ENUM ('DISPONIBLE', 'MAINTENANCE', 'TRAJET', 'INDISPONIBLE');
+
+
+
 -- Table Adresse
 CREATE TABLE adresse (
     adresse_id SERIAL PRIMARY KEY,

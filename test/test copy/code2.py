@@ -1,6 +1,9 @@
 import random
-
+#Une fois que mes tables stations et adresse sont crees et remplie je peux remplir ma table velo
+# ici je suppose que j'ai pas de velo en MAINTENANCE car c'est le remplissage initiale de ma table avant toute modification 
+# le resulat de ce script est inserts_velo.sql 
 # Nombre de vélos à simuler
+
 nombre_velos = 10
 
 # Charger les IDs des stations depuis un fichier CSV

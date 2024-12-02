@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ff9dec59fcca33762632afdc2e43111c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ff9dec59fcca33762632afdc2e43111c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ff9dec59fcca33762632afdc2e43111c = L.map(
+                "map_ff9dec59fcca33762632afdc2e43111c",
+                {
+                    center: [48.8924641127159, 2.358332186407661],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ab61621582401e0295c5442dc5046df4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ab61621582401e0295c5442dc5046df4.addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var marker_52386f141996e3dc241e062bf4cb009d = L.marker(
+                [48.8924641127159, 2.358332186407661],
+                {}
+            ).addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var div_icon_89b903ecefb06daef1ea6dcdf48948ca = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"background-color:white; border: 2px solid black; padding: 5px; text-align: center; width: 150px;\"\u003e\n            \u003ch4 style=\"color:red; margin: 0;\"\u003ePlanning\u003c/h4\u003e\n        \u003c/div\u003e\n    "});
+            marker_52386f141996e3dc241e062bf4cb009d.setIcon(div_icon_89b903ecefb06daef1ea6dcdf48948ca);
+        
+    
+            var marker_1472d9c6520bcf3bbb6a2c15fda0e557 = L.marker(
+                [48.87929591733507, 2.3373600840568547],
+                {}
+            ).addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var icon_ba3eeda8ce82c58c2181b5cbaffc45b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1472d9c6520bcf3bbb6a2c15fda0e557.setIcon(icon_ba3eeda8ce82c58c2181b5cbaffc45b4);
+        
+    
+        var popup_8133852219c8fce5bd6845f46c63540c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9bbce470312d86c4ee96a1e3444eeb4 = $(`<div id="html_e9bbce470312d86c4ee96a1e3444eeb4" style="width: 100.0%; height: 100.0%;"><b>Toudouze - Clauzel</b><br>Ordre: 1</div>`)[0];
+                popup_8133852219c8fce5bd6845f46c63540c.setContent(html_e9bbce470312d86c4ee96a1e3444eeb4);
+            
+        
+
+        marker_1472d9c6520bcf3bbb6a2c15fda0e557.bindPopup(popup_8133852219c8fce5bd6845f46c63540c)
+        ;
+
+        
+    
+    
+            var marker_a6630e8890147882b1fc9085f0a6bc19 = L.marker(
+                [48.93626891059109, 2.3588666820200914],
+                {}
+            ).addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var icon_942cbe028c3cb95e8477fdf3f1412d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6630e8890147882b1fc9085f0a6bc19.setIcon(icon_942cbe028c3cb95e8477fdf3f1412d7a);
+        
+    
+        var popup_bb6c4ba46fa7bd79e1c5253c48f4b1f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16ffc5a1e57cb1193bb3b55fe2a2062b = $(`<div id="html_16ffc5a1e57cb1193bb3b55fe2a2062b" style="width: 100.0%; height: 100.0%;"><b>Basilique</b><br>Ordre: 2</div>`)[0];
+                popup_bb6c4ba46fa7bd79e1c5253c48f4b1f4.setContent(html_16ffc5a1e57cb1193bb3b55fe2a2062b);
+            
+        
+
+        marker_a6630e8890147882b1fc9085f0a6bc19.bindPopup(popup_bb6c4ba46fa7bd79e1c5253c48f4b1f4)
+        ;
+
+        
+    
+    
+            var marker_d1e329e3ea681cecdd1f99be764d20b2 = L.marker(
+                [48.84389286531899, 2.351966388523578],
+                {}
+            ).addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var icon_d9497a5140fa8fe34545486c1c972036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1e329e3ea681cecdd1f99be764d20b2.setIcon(icon_d9497a5140fa8fe34545486c1c972036);
+        
+    
+        var popup_bd207a7cab6f782d0c96843984d77320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3191f5f3899d6b1f947f0f472abc7b35 = $(`<div id="html_3191f5f3899d6b1f947f0f472abc7b35" style="width: 100.0%; height: 100.0%;"><b>Lacépède - Monge</b><br>Ordre: 3</div>`)[0];
+                popup_bd207a7cab6f782d0c96843984d77320.setContent(html_3191f5f3899d6b1f947f0f472abc7b35);
+            
+        
+
+        marker_d1e329e3ea681cecdd1f99be764d20b2.bindPopup(popup_bd207a7cab6f782d0c96843984d77320)
+        ;
+
+        
+    
+    
+            var marker_4c193cb2df0e076ef6cd9790c7b0e8a4 = L.marker(
+                [48.91039875761846, 2.3851355910301213],
+                {}
+            ).addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var icon_2dbb2edbbbf7b33a27da17b518686540 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c193cb2df0e076ef6cd9790c7b0e8a4.setIcon(icon_2dbb2edbbbf7b33a27da17b518686540);
+        
+    
+        var popup_f697ebe72c522230925cc6250937c991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71709e50343ce37db64dca017872295e = $(`<div id="html_71709e50343ce37db64dca017872295e" style="width: 100.0%; height: 100.0%;"><b>André Karman - République</b><br>Ordre: 4</div>`)[0];
+                popup_f697ebe72c522230925cc6250937c991.setContent(html_71709e50343ce37db64dca017872295e);
+            
+        
+
+        marker_4c193cb2df0e076ef6cd9790c7b0e8a4.bindPopup(popup_f697ebe72c522230925cc6250937c991)
+        ;
+
+        
+    
+    
+            var marker_5d5383bc58bc35148b5ada2f797e62c0 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_ff9dec59fcca33762632afdc2e43111c);
+        
+    
+            var icon_1846804eabe5625dc997faf7c5a739bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warehouse", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d5383bc58bc35148b5ada2f797e62c0.setIcon(icon_1846804eabe5625dc997faf7c5a739bf);
+        
+    
+        var popup_f5acc53d0e435ab56c391a385e343bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6abad7f7f4e6ef9477b3943610ae4e71 = $(`<div id="html_6abad7f7f4e6ef9477b3943610ae4e71" style="width: 100.0%; height: 100.0%;"><b>Entrepot_PARIS </b></div>`)[0];
+                popup_f5acc53d0e435ab56c391a385e343bb5.setContent(html_6abad7f7f4e6ef9477b3943610ae4e71);
+            
+        
+
+        marker_5d5383bc58bc35148b5ada2f797e62c0.bindPopup(popup_f5acc53d0e435ab56c391a385e343bb5)
+        ;
+
+        
+    
+</script>
+</html>

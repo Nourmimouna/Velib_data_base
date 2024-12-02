@@ -1,3 +1,5 @@
+--ce fichier sert a tester notre base 
+
 SELECT velo_id FROM velo WHERE statut_velo = 'MAINTENANCE';
 
 SELECT s.nom 

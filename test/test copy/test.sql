@@ -1,3 +1,7 @@
+
+--cets le fichier de teste de la base je genere un feedback et un trajet pour voir si cets mis a jour dans le velo correspondant 
+--j'ai essayer de creer uen sorte de communication avce le terminal pour simuler le teste sur le terminal
+
 -- Message d'introduction
 \echo '===== Début des tests ====='
 

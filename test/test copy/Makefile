@@ -2,13 +2,15 @@ DB_NAME=velib_test
 USER=postgres
 HOST=localhost
 PORT=5432
-PGPASSWORD=Nour2003
+PGPASSWORD=NouSr2003
 
 .PHONY: all test clean
 
 all: reset setup python_prepare python_exports python_run inserts create_csv test create_1 python_carte 
 
-
+# ce make file est crucial dans le teste de ma base faut creer une base et modifier les informations en haut , nom de base , mot de passe 
+# l'ordre est notemment imoportant ici car les fichiers dépendent les uns des autres. 
+# a la fin on genere une caret avec les stations et l'ordre de visite 
 
 reset:
 	PGPASSWORD=$(PGPASSWORD) psql -U $(USER) -h $(HOST) -p $(PORT) -d $(DB_NAME) -c "DROP SCHEMA public CASCADE;"
