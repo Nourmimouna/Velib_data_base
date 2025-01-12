@@ -54,3 +54,5 @@ Le projet contient plusieurs fichiers organisés selon les différentes tâches 
 
 Visualisation de la Carte 🗺️   
 Voici une carte générée par le fichier carte_planning.html, qui montre l'emplacement des stations et des entrepôts.
+![Carte des stations et entrepôts](./test/test copy/carte_planning.png)
+
