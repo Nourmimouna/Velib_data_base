@@ -52,5 +52,5 @@ Le projet contient plusieurs fichiers organisés selon les différentes tâches 
    ```bash
    pip install -r requirements.txt
 
-   Visualisation de la Carte 🗺️
+Visualisation de la Carte 🗺️   
 Voici une carte générée par le fichier carte_planning.html, qui montre l'emplacement des stations et des entrepôts.
