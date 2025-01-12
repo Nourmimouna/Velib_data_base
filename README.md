@@ -48,9 +48,7 @@ Le projet contient plusieurs fichiers organisés selon les différentes tâches 
 
 2. **Python** : Assurez-vous d'avoir Python installé sur votre machine. Le projet utilise des scripts Python pour manipuler les données.
 
-3. **Bibliothèques Python** : Si vous utilisez des bibliothèques externes dans vos scripts Python, installez-les avec la commande suivante :
-   ```bash
-   pip install -r requirements.txt
+3. **Bibliothèques Python** : Si vous utilisez des bibliothèques externes dans vos scripts Python.
 
 Visualisation de la Carte 🗺️   
 Voici une carte générée par le fichier carte_planning.html, qui montre l'emplacement des stations et des entrepôts.
